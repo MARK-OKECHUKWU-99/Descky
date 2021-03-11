@@ -16,12 +16,13 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $fillable = [
-        'name',
+       protected $fillable = [
+        'firstname',
+        'lastname',
         'email',
+        'phone',
         'password',
     ];
-
     /**
      * The attributes that should be hidden for arrays.
      *
@@ -40,4 +41,18 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+          public function setFirstNameAttribute($value)
+    {
+    $this->attributes['firstname'] = 
+        Str::of($value)->ucfirst();
+
+    }
+
+
+       public function setLastNameAttribute($value)
+    {
+    $this->attributes['lastname'] = 
+        Str::of($value)->ucfirst();
+
 }
