@@ -1,0 +1,35 @@
+:root {
+--dark-bg: #181818;
+--blue: #481EAE;
+--blue-bg: #6536DC;
+--white: #ffffff;
+--black: #000000;
+--border-radius-50: 50%;
+--border-radius-sm: 0.3rem;
+--box-shadow: 2px 4px 6px rgba(0,0,0,0.5);
+--cursive: cursive;
+--contentBackground: #110011;
+--sidebarBackground: #f9f9f9;
+--sidebarBorder: #e1e1e1;
+--scrollbarColor: #ccc;
+--scrollbarColorHover: #999;
+--bor-color: #ccc;
+--shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+--fill-light:#4d4d4d;
+--fill-dark: #D1D5E4;
+--text-color-hover: #fff;
+--default-font-family: sans-serif;
+--border-bottom-color: grey;
+--box-shadow-sm: var(--shadow, 0 0 #0000), 
+var(--shadow, 0 0 #0000), var(--shadow);
+
+/*Dark Theme*/
+--dark-background-color: #111111;
+--dark-background-color-alt: #222222;
+--dark-trim-color: #333333;
+--dark-text-color: #eeeeee;
+--dark-after-bg: #ffffff;
+--light-blur: var(--blue-bg);
+/*End Of Dark Theme*/
+
+}
