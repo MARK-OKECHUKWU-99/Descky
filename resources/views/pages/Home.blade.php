@@ -7,11 +7,13 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+
+
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-<link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
-<link rel="stylesheet" href="assets/css/animate.css" />
-<link rel="stylesheet" href="assets/css/tiny-slider.css" />
+<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css" />
 <link rel="stylesheet" href="assets/css/glightbox.min.css" />
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="stylesheet" href="assets/css/reset.css" />
@@ -505,7 +507,7 @@ I been dey find funds for my Business to build more Materials to Burst My Busine
 <i class="lni lni-quotation"></i>
 <p>"As a Graduate, I needed to Funds to Start up my own Small Company, All Thanks to De-Scky Centre, it was made Possible" </p>
 <div class="bottom">
-<h4 class="name">Angela Emmanuel<span>Business Starter</span></h4>
+<h4 class="name">kerio chal<span>Business Starter</span></h4>
 </div>
 </div>
 
@@ -715,12 +717,14 @@ We Sent Our Outmost Greeting to Our Clients That are always Compliant To Our Ser
 <script src="assets/js/bootstrap.min.js" ></script>
 <script src="assets/js/count-up.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
-<script src="assets/js/tiny-slider.js"></script>
+<!-- <script src="assets/js/tiny-slider.js"></script> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
 <script src="assets/js/glightbox.min.js"></script>
 <script src="assets/js/imagesloaded.min.js"></script>
 <script src="assets/js/isotope.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script>
+
       //====== Clients Logo Slider
       tns({
         container: '.client-logo-carousel',
@@ -830,6 +834,5 @@ We Sent Our Outmost Greeting to Our Clients That are always Compliant To Our Ser
                 );
             });
     </script>
-
 </body>
 </html>
